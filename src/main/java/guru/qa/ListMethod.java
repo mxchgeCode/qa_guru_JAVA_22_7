@@ -23,7 +23,7 @@ public class ListMethod {
     }
     public static void main(String[] args) {
         // создадим список
-        strList = new ArrayList<String>();
+        strList = new ArrayList<>();
         // добавим элементы
         addElement(strList, "Sports");
         addElement(strList, "Reading");
