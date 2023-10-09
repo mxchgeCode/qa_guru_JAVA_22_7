@@ -35,8 +35,5 @@ public class SetMethod {
         // удалим элемент
         removeElement(stringSet, "Sports");
         System.out.println("Удалим элемент:"+ stringSet);
-
-
-
     }
 }

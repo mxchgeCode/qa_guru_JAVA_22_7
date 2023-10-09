@@ -35,5 +35,6 @@ public class ListMethod {
         // удалим элемент
         removeElement(strList, "Music");
         System.out.println("Удалим элемент:"+strList);
+
     }
 }
