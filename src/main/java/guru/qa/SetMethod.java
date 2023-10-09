@@ -4,7 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SetMethod {
-    private static Set<String> stringSet;
 
     public static void addElementInSet(Set<String> stringSet, String nameElement) {
         stringSet.add(nameElement);
@@ -24,12 +23,12 @@ public class SetMethod {
 
     public static void main(String[] args) {
         // создадим set
-        stringSet = new HashSet<>();
+        Set<String> stringSet = new HashSet<>();
         // добавим элементы
         addElementInSet(stringSet, "Sports");
         addElementInSet(stringSet, "Reading");
         addElementInSet(stringSet, "Music");
-        System.out.println("Вывод списка: "+stringSet);
+        System.out.println("Вывод списка: "+ stringSet);
         // найдем элемент
         System.out.println("Найдем элемент: "+ getElement(stringSet, "Reading"));
         // удалим элемент

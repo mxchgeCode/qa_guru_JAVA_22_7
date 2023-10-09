@@ -3,7 +3,8 @@ import java.util.PriorityQueue;
 
 public class QueueMethod {
     public static void main(String[] args) {
-        PriorityQueue<String> hobby = new PriorityQueue<String>();
+        PriorityQueue<String> hobby;
+        hobby = new PriorityQueue<>();
 
         hobby.add("Sports");
         hobby.add("Reading");
